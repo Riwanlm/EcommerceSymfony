@@ -13,3 +13,7 @@ symfony console make:controller
 
 ## Création de l'entité Utilisateur avec : 
 symfony console make:user
+
+## Création de la base de donnée : 
+
+Modifier dans le .env la DATABASE_URL 
