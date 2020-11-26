@@ -22,6 +22,6 @@ Générer le fichier SQL migration :
 symfony console make:migration
 &
 Exécuter la migration vers la BDD :
-
+symfony console doctrine:migration:migrate
 
 
