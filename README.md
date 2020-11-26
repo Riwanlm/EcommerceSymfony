@@ -10,3 +10,6 @@ Ajout du dossier CSS & JS de bootstrap dans le dossier public/assets + copie du 
 ## Création d'un controller avec le terminal :
 
 symfony console make:controller
+
+## Création de l'entité Utilisateur avec : 
+symfony console make:user
