@@ -24,4 +24,8 @@ symfony console make:migration
 Exécuter la migration vers la BDD :
 symfony console doctrine:migration:migrate
 
-
+## Formulaire d'inscription : 
+Création du Controller RegisterController 
+&
+Création du formulaire avec : symfony console make:form
++ Ajout des différents champs dans Entity User (make:entity) puis dans RegisterType.
