@@ -29,3 +29,6 @@ Création du Controller RegisterController
 &
 Création du formulaire avec : symfony console make:form
 + Ajout des différents champs dans Entity User (make:entity) puis dans RegisterType.
+
+## Sauvegarde des données en BDD pour la création d'un new User :
+- Création de la public function __construct() & validation des données dans RegisterController (New object User, vérification & validation, persistance des données et flush en BDD).
