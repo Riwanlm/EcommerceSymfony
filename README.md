@@ -35,3 +35,9 @@ Création du formulaire avec : symfony console make:form
 
 ## Hachage des MDP en BDD avec :
 - UserPasswordEncoderInterface & utilisation de la variable $password.
+
+## Ajout de contrainte de validation : 
+- Dans RegisterType avec 'constraints'
+
+## Passer les messages d'erreurs en anglais par défaut en fr :
+Aller dans : config > packages > translation.yaml & changer le "default_locale" en fr.
