@@ -32,3 +32,6 @@ Création du formulaire avec : symfony console make:form
 
 ## Sauvegarde des données en BDD pour la création d'un new User :
 - Création de la public function __construct() & validation des données dans RegisterController (New object User, vérification & validation, persistance des données et flush en BDD).
+
+## Hachage des MDP en BDD avec :
+- UserPasswordEncoderInterface & utilisation de la variable $password.
