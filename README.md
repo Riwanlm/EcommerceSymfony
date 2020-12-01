@@ -41,3 +41,6 @@ Création du formulaire avec : symfony console make:form
 
 ## Passer les messages d'erreurs en anglais par défaut en fr :
 Aller dans : config > packages > translation.yaml & changer le "default_locale" en fr.
+
+## Création de la page de connexion : 
+Utiliser la commande : symfony console make:auth -> permet de générer le fomulaire de connexion ainsi que de générer les routes 'login' et 'logout'.
