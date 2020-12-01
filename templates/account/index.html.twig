@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon compte - La Boutique Française{% endblock %}
+
+{% block content %}
+    <h1>Mon compte</h1>
+    <p>Bienvenue à toi {{ app.user.firstname }}  ! 
+    <br> C'est dans cette espace que tu vad pouvoir gérer toutes tes informations personnelles.</p>
+    <!-- le "dump" permet de vérifié les information en brut dans une variable, ex : 
+    dump(app.user) -->
+    <br>
+    <hr>
+    <h3>À faire :</h3>
+    - Modifier mon mot de passe <br>
+    - Ajouter mes adresse <br>
+    - Mes commandes <br>
+    <hr>
+{% endblock %}

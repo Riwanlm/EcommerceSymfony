@@ -44,3 +44,9 @@ Aller dans : config > packages > translation.yaml & changer le "default_locale" 
 
 ## Création de la page de connexion : 
 Utiliser la commande : symfony console make:auth -> permet de générer le fomulaire de connexion ainsi que de générer les routes 'login' et 'logout'.
+
+#### Pour voir toutes les routes de l'application : 
+symfony console debug:router
+
+## Création de l'espace membre utilisateur (/compte) : 
+symfony console make:controller --> AccountController
