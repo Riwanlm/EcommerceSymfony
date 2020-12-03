@@ -40,7 +40,7 @@ class AccountPasswordController extends AbstractController
                 $password = $encoder->encodePassword($user, $new_pwd);
 
                 $user->setPassword($password);
-                $this->entityManager->flush();
+                $this->entityManager->flush(); // Pas besoin de 'entityManager->persist()' pour une modifiaction de donnée.
                 $notification = '✅ Votre mot de passe à bien été mis à jour.✅';
             } else {
                 $notification = "🚨 Votre mot de passe actuel n'est pas le bon.🚨";
