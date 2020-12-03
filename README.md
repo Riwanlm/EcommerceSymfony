@@ -50,3 +50,8 @@ symfony console debug:router
 
 ## Création de l'espace membre utilisateur (/compte) : 
 symfony console make:controller --> AccountController
+
+## Modification du mot de passe utilisateur : 
+- symfony console make:controller -> AccountPasswordController
+- symfony console make:form -> sur l'entité User.
+- Puis CF AccountPasswordController & ChangePasswordType pour voir les modifiactions.
