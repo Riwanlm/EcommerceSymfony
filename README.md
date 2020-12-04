@@ -55,3 +55,8 @@ symfony console make:controller --> AccountController
 - symfony console make:controller -> AccountPasswordController
 - symfony console make:form -> sur l'entité User.
 - Puis CF AccountPasswordController & ChangePasswordType pour voir les modifiactions.
+
+## Installation de EasyAdmin pour créer un dashbord d'administration : 
+-  composer require easycorp/easyadmin-bundle
+- symfony console make:admin:dashboard --> décommenter dans public function configureMenuItems() du dashbordController et modifier les valeurs.
+- symfony console make:admin:crud --> sur le User pour le lié au dashbordController.
