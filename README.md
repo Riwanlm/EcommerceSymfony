@@ -60,3 +60,13 @@ symfony console make:controller --> AccountController
 -  composer require easycorp/easyadmin-bundle
 - symfony console make:admin:dashboard --> décommenter dans public function configureMenuItems() du dashbordController et modifier les valeurs.
 - symfony console make:admin:crud --> sur le User pour le lié au dashbordController.
+
+### Si jamais les modification CSS ne s'applique après modifiaction :
+- symfony console cache:clear
+- Vider le cache du navigateur
+
+## Création de la page produits & de la page associé à chaque produit :
+- symfony console make:controller -> ProductController
+- Création des différentes routes dans le controller 
+- & Rajouter une page pour visualiser la redirection vers un seul produits avec 'show.html.twig'
+- On se base sur le slug pour renvoyer les informations dans la page 'produit/{slug}'
