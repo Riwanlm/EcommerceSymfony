@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 .navbar-item-custom, .navbar-item-custom a {
     color: #FFF;
 }
@@ -8,8 +12,7 @@
 
 .footer-custom {
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     padding-top: 25px;
     background-color: #DFEAFF;
