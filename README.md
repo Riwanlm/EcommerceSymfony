@@ -70,3 +70,6 @@ symfony console make:controller --> AccountController
 - Création des différentes routes dans le controller 
 - & Rajouter une page pour visualiser la redirection vers un seul produits avec 'show.html.twig'
 - On se base sur le slug pour renvoyer les informations dans la page 'produit/{slug}'
+
+#### Pour voir tout les services d'injection proposé par symfony (command line):
+symfony console debug:autowiring
