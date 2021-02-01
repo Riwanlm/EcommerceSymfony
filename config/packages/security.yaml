@@ -37,3 +37,4 @@ security:
     access_control:
         # - { path: ^/admin, roles: ROLE_ADMIN }
         - { path: ^/compte, roles: ROLE_USER } # PERMET DE RENVOYER UNE ROUTE PAR DEFAUT APRES CONNEXION
+        - { path: ^/commande, roles: ROLE_USER }
