@@ -92,7 +92,7 @@ class OrderController extends AbstractController
                 $this->entityManager->persist($orderDetails);
             }
 
-            //$this->entityManager->flush(); //ligne commenté pour éviter l'ajout en BDD
+            //$this->entityManager->flush(); -> ligne commenté pour éviter l'ajout en BDD
 
             return $this->render('order/add.html.twig', [
                 'cart' => $cart->getFull(),
